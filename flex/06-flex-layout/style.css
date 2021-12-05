@@ -6,6 +6,21 @@
   min-height: 100vh;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.content button {
+  padding: 0.8rem;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
