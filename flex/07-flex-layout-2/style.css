@@ -8,7 +8,6 @@ body {
 .container {
   display: flex;
   min-height: 100vh;
-  justify-content: space-between;
   flex-direction: column;
 }
 
@@ -23,10 +22,23 @@ body {
   padding-left: 16px;
 }
 
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+.card-container {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  margin-top: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,10 +47,28 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  padding: 4px;
+}
+
+.sidebar li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
+  padding: 16px;
+  width: 200px;
 }
