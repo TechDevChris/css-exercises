@@ -53,6 +53,8 @@ body {
 
 .sidebar ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .sidebar ul li {
@@ -70,5 +72,6 @@ body {
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
   padding: 16px;
-  width: 200px;
+  margin: 16px;
+  width: 300px;
 }
